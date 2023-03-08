@@ -1,0 +1,84 @@
+
+body{
+	background-color: blue;
+	color: red;
+}
+
+p
+{
+	color: gray;
+	width: 600px;
+}
+
+
+h1
+{
+	border: 1px solid black;
+	/* Margenes personalizados */
+	margin-top: 40px;
+	margin-bottom: 20px;
+	margin-left: 10px;
+	margin-right: 10px;
+	/* Margenes personalizados */
+	/*
+	padding-top: 30px;
+	padding-bottom: 15px;
+	padding-left: 15px;
+	padding-right: 20px;
+	*/
+	/* Margenes personalizados en una sola linea */
+	padding: 20px 5px 15px 20px;
+	color: red;
+	width: 600px;
+	font-family: sans-serif
+}
+
+h2
+{
+	color: green;
+	width: 800px;
+	font-style: bold;
+	font-family: Segoe UI;
+	border-style: outset;
+	}
+
+
+h3
+{
+	font-family: "Lucida Console", monospace;
+	color: blue;
+	font-weight: bold;
+	font-size: large;
+	padding-bottom: 0px;
+	margin-bottom: 2px;
+}
+	
+section
+{
+	width: 650px;
+	border: 10px solid #00FF00;
+	padding: 50px;	/* aplica padding de 50px parejo a todo el section */
+	margin: 20px;	/* aplica marging de 20px parejo a todo el section */
+}
+
+/*
+el asterisco funciona igual que en los OS, para por ejemplo aplicar el color de fuente a 
+toda la pagina HTML entera.
+Ejemplo, aplica color rojo a todos los textos:
+
+* {
+	color: red;
+}
+*/
+
+#mi_parrafo
+{
+	color: #FF6600;
+	font-size: 15px;
+	font-style: italic;
+	font-weight: bold;
+	border: 1px solid blueviolet;
+}
+
+
+

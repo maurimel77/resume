@@ -1,0 +1,152 @@
+<!--
+Curriculom Vitae en ingles, para trabajo practico final del curso Ticmas Academy.
+Autor: Mauricio N. Melocchi
+Fecha: 2023/03/08
+Version: 1.0
+Software utilizado: Visual Studio Code 1.75.1 en Windows 10.
+ToDo:
+- Mejorar el contact form, para que envie correo desde la misma pagina web.
+- Incluir funcionalidad JSON.
+- Agregar previo con open graph data.
+- Mejorar el resizing de los elementos.
+- Agregar seccion cursos y publicaciones.
+- Agregar mas funcionalidades como por ejemplo aplicacion web para calculo de determinantes.
+-->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="img/favicon.ico">
+    <title>Mauricio Melocchi online resume</title>
+    <script defer src="js/fecha.js"></script> <!-- agrego el modificador defer para que el tag del html busque el archivo js, caso contrario no lo tomaria, y deberia llamarlo debajo del tag, como hice en el codigo comentado del footer. -->
+    <script defer src="js/contador.js"></script>
+    <script defer src="js/desplegable.js"></script>
+    <link rel="stylesheet" href="css/resume.css">
+
+    <style>
+        body {
+	        background-image: url("img/bg.png");
+	        background-repeat: repeat;
+            }
+    /* Me queda la gran duda de por que este codigo no funciona si lo pongo en el css.
+       Tuve que integrarlo en el HTML por ese motivo, sino el la imagen de background no se ve. */
+    </style>
+
+</head>
+<body>
+
+    <div class="header2">
+      <h3>MAURICIO N. MELOCCHI &nbsp;&nbsp; online resume</h3>
+    </div>
+      
+      <div class="row">
+        <div class="col-3 col-s-3 menu">
+          <ul>
+          
+            <li><strong>Electronics Engineer</strong><br>
+            Universidad Tecnologica Nacional (2005). Mendoza. ARGENTINA<br><br>
+            Electricity Science Technician graduate<br>
+            Pablo Nogues High School (1996). Mendoza. ARGENTINA
+            </li>
+            <li><strong>Contact Info</strong>
+            <br><img src="img/linkedin.png" alt="LinkedIn" width="30" height="30" style="vertical-align:middle" style="color:white;">&nbsp;<a href="https://ar.linkedin.com/in/melocchi/es" target="_blank">LinkedIn</a> 
+            <br><img src="img/mail.png" alt="LinkedIn" width="30" height="30" style="vertical-align:middle" style="color:white;">&nbsp;<a href="#formulario_correo">Contact me</a>  
+            </li>
+          </ul>
+        </div>
+      
+        <div class="col-6 col-s-9 texto">
+          <h2>Experience</h2>
+          
+          <div class="titulos">Electrical engineering project analyst. EDEMSA (Mendoza 2018 - present)</div>
+          <div>Engineer of Medium and low voltage electrical projects, electrical power lines and transformer stations.</div>
+          
+          <div class="titulos"><br>Testing Engineer / R&D. ELECTROFUEGUINA S.A. (Tierra del Fuego 2015-2017)</div>
+          <div>Head of R&D of testing equipments carried out with acquisition DAQ and National Instruments's LabVIEW. Technical deployment, integration and maintenance of manufacturing line on TV production.</div>
+
+          <div class="titulos"><br>Sr. Testing Engineer at NOKIA & MICROSOFT (Tierra del Fuego 2014-2015)</div>
+          <div>Manufacturing testing engineer on Nokia (the Microsoft) mobile devices. Network configurations, SVN management, equipment callibration and production proceses analysis and enhancement.</div>
+
+          <div class="titulos"><br>Testing EngineerTesting Engineer at BGH S.A. (Tierra del Fuego 2014)</div>
+          <div>Head of Laboratory of Testing. Start up and follow-up of automatic testing equipment for TV electronics.</div>
+
+          <div class="titulos"><br>Head of Electronics R&D Laboratory at CORADIR S.A. (San Luis 2011 - 2012)</div>
+          <div>Deployment of an Optical GPON network (FTTH) / Broadlight based ONT development working with embedded systems MIPS/ARM under Linux (U-Boot, TFTP). Development of alternative energies setups (photo-voltaic and wind). Applied optoelectronics: development of LED street luminaries. Circuit design and simulation, PCB design and fabrication. Virtual instrumentation with LabVIEW, measurements electricity and RF/Microwave. Development & measurement of two grounding system with less than 3 Ω.</div>
+
+          
+          <div class="titulos"><br>Satellite Subsystem Electronics Engineer at INVAP S.E. (Bariloche 2006 - 2007)</div>
+          <div>MIL-STD-1553 and VME buses interface integration, commisioning, and electrical testing. Verification, documentation, core debugging and test bench programming in VHDL for rad-hard ACTEL and Xilinx FPGAs with FPGA Advantage, Xilinx ISE and ACTEL Libero software.</div>          
+          
+          <div class="titulos"><br>Science Researcher at Pierre Auger Cosmic Rays Observatory (Mendoza 2000 - 2005)</div>
+          <div>Development and Patenting of a Light Leak Detector (LLD) for liner testing. 
+            Research in astroparticles physics at National Commission for Atomic Energy(Comisión Nacional de Energía Atómica) for the Pierre Auger Ultra High Energy Cosmic Rays Observatory.
+            <br>Data analysis on Photomultiplier Tubes Header Electronics testing outputs for detectors at Istituto Nazionale di Fisica Nucleare - (INFN) – ITALY.
+            <br>Fluorescence Detectors inner works and assembly at Institute für Prozessdaten verarbeitung und Electronik Forschungszentrum Karlsruhe - GERMANY.
+            <br>Development of a 16 pixel PMT muon counter prototype at Centro Atómico Constituyentes(CAC), Comisión Nacional de Energía Atómica(CNEA) – Buenos Aires - ARGENTINA.</div>
+    
+          <div class="titulos"><br></div>
+          <div></div>
+
+          <div class="titulos"><br></div>
+          <div></div>
+            
+          
+        </div>
+      
+        <div class="col-3 col-s-12">
+          <ul>
+            <li>
+              <div class="menu_derecho">
+                <h3>IT Skills</h3>
+                <p>C / C++. GUI with GTK+ and Cairo graphics. Python. Java. JavaScript. HTML. CSS. VBA macros. QBasic. VHDL. LabVIEW.</p>
+                <h3>Special Software skills</h3>
+                <p>AutoCAD (advanced). OrCAD. PSpice. Multimedia. Office software.</p>
+                <h3>Interests / Hobbies</h3>
+                <p>Astronomy. Aviation. Karate. Swimming. Science. Videogames.</p>
+              </div>
+            </li>
+            <li></li> <!-- separador -->
+            <li>
+              <div class="menu_derecho">
+                <h3>Courses and Publications</h3>
+                <button type="button" id="boton_mostrar" class="boton_mostrar">Ver mas</button>&nbsp;<button type="button" id="boton_ocultar" class="boton_ocultar">Ocultar</button>
+                <p id="txt_cursos"></p>
+                <h3>More:</h3>
+                <p>Coming soon...</p>
+              </div>
+            </li>
+            <li></li>  <!-- separador -->
+            <li id="formulario_correo">
+              <form class="form" action="mailto:mauricio.melocchi@gmail.com" method="post" enctype="text/plain">
+              <div>Nombre:</div> <input type="text" name="FirstName">
+              <div>Email:</div> <input type="text" name="Email">
+              <br><input type="submit" name="submit" value="Submit">
+              </form>
+            </li>
+            <li style="padding:0px; margin:1px;"></li>  <!-- separador -->
+            <li>
+            <div class="menu_derecho">Website visit count: <span class="contador"></span>
+            </div>
+            </li>
+
+          </ul>
+          <!--
+          <script src="js/code.js"></script>
+          -->
+        </div>
+      </div>
+      
+
+      
+      <div class="footer">
+        <h3>Copyright ©  Mauricio Melocchi 2022 - <span id="texto_year"></span></h3>
+      </div>
+      <!--
+      <script src="js/fecha.js"></script>
+      Si en el encabezado no utilizo el modificador "defer", no carga correctamente el JS para linkearlo con el id del HTML.
+      -->
+
+</body>
+</html>

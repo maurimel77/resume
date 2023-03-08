@@ -1,0 +1,17 @@
+body{
+	background-color: blue;
+	color: white;
+}
+
+#txt
+{
+	background-color: blue;
+	color: white;
+	width: 600px;
+
+		font-family: "Lucida Console", monospace;
+		font-weight: bold;
+		font-size: small;
+		padding-bottom: 0px;
+		margin-bottom: 2px;
+}
