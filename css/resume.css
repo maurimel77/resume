@@ -198,3 +198,15 @@
 	background-color:indigo;
 	color:gray;
 }
+
+.boton_mostrar:hover
+{
+	background-color: #ff6600;
+	color: black;
+ }
+ 
+.boton_ocultar:hover
+{
+   background-color: #ff6600;
+   color: black;
+}
