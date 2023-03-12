@@ -1,5 +1,6 @@
 
 //Codigo para desplegar el texto de cursos al tocar el boton Ver mas.
+console.log("Nueva version");
 
 let estado = true;
 
