@@ -1,6 +1,5 @@
 
 //Codigo para desplegar el texto de cursos al tocar el boton Ver mas.
-console.log("Nueva version");
 
 let estado = true;
 
@@ -23,8 +22,13 @@ document.getElementById("boton_mostrar").addEventListener('click', function () {
 }
 );
 
+
+/*
+
 document.getElementById("boton_ocultar").addEventListener('click', function () {
     console.log("Click desde EventListener");
     document.getElementById("txt_cursos").innerHTML = "";
 }
 );
+
+*/
